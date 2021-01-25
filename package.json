@@ -1,14 +1,18 @@
 {
-  "name": "CLITool",
+  "name": "autostack",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A CLI tool for automating the tedious tasks of a react app",
+  "main": "autostack.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["automate frontend","automate react app cli","best frontend automation cli"],
+  "author": "Tanay Kulkarni",
   "license": "ISC",
+  "repository": {
+    "type":"git",
+    "url": "git+https://github.com/Tanayk7/autostack.git"
+  },
   "dependencies": {
     "chalk": "^4.1.0",
     "clear": "^0.1.0",
