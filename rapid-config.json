@@ -1,0 +1,22 @@
+{
+	"app_name": "testapp",
+	"app_layout": "sidebar_topbar_content",
+	"routes": [
+		"home",
+		"about",
+		"profile",
+		"dashboard",
+		"login",
+		"signup"
+	],
+	"state": [
+		"ui",
+		"login",
+		"profile"
+	],
+	"components": [
+		"all"
+	],
+	"dependencies": [],
+	"login_type": "federated"
+}
