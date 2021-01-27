@@ -1,0 +1,24 @@
+import './App.css';
+import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
+import { LastLocationProvider } from 'react-router-last-location';
+import { Provider } from 'react-redux';
+import { PersistGate } from 'redux-persist/integration/react'
+import reduxStore from './Redux/store';
+<app_component_imports> 
+
+function App() {
+    return (
+        <Provider store={reduxStore().store}>
+            <PersistGate loading={null} persistor={reduxStore().persistor}>
+                <Router>
+                    <LastLocationProvider>
+                        <Switch>
+                            <app_routes>
+                        </Switch>
+                    </LastLocationProvider>
+                </Router>
+            </PersistGate>
+        </Provider>
+    );
+}
+export default App;

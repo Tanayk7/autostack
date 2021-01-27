@@ -1,0 +1,8 @@
+import { combineReducers } from "redux";
+<import_state_category_reducers> 
+
+const rootReducer = combineReducers({
+    <state_category_reducer_key_values> 
+});
+
+export default rootReducer;

@@ -1,0 +1,69 @@
+.table {
+  background: rgb(228, 228, 228);
+
+  border-radius: 10px;
+  width: 100%;
+  border: none;
+  /* border: 1px solid black; */
+}
+
+.thead {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background: whitesmoke;
+  border-bottom: 0px;
+}
+
+.tbody {
+  border-top: 0px;
+  background: whitesmoke;
+}
+
+.table-row {
+  display: flex;
+}
+
+.table-val {
+  text-align: center;
+  flex: 1;
+  width: 150px;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.table-head-val {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.edit-cell {
+  display: flex;
+}
+
+.edit-btn {
+  margin-right: 5px;
+  background: rgb(228, 228, 228);
+  padding: 5px;
+  color: black;
+  border: none;
+  outline: none;
+}
+.edit-btn:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.delete-btn {
+  background: rgb(228, 228, 228);
+  padding: 5px;
+  color: black;
+  border: none;
+  outline: none;
+}
+.delete-btn:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}

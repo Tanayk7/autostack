@@ -1,0 +1,64 @@
+.tree {
+  min-width: 300px;
+  color: white;
+  font-size: 18px;
+}
+
+.tree-top {
+  padding: 0px;
+  display: flex;
+  cursor: pointer;
+}
+
+.tree-top:hover {
+  background: gray;
+}
+
+.tree-plus-button {
+  display: inline-block;
+  align-self: center;
+}
+
+.tree-plus-button:hover {
+  cursor: pointer;
+}
+
+.plus-icon {
+  font-size: 22px;
+  margin: auto;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  align-self: center;
+  vertical-align: middle;
+}
+
+.tree-text {
+  align-self: center;
+  user-select: none;
+}
+
+.tree-bottom {
+  width: 100%;
+  display: none;
+  padding-left: 25px;
+}
+
+.tree-line {
+  height: 100%;
+  width: 1px;
+  border-right: 1px dotted white;
+  justify-self: center;
+}
+
+.tree-content {
+  padding: 15px;
+  padding-left: 0px;
+  border: 1px solid white;
+}
+
+.tree-content > * {
+  margin-bottom: 10px;
+}

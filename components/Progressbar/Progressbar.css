@@ -1,0 +1,12 @@
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  background: whitesmoke;
+  align-self: center;
+}
+
+.progress-bar-meter {
+  width: 50%;
+  background: dodgerblue;
+  height: 100%;
+}

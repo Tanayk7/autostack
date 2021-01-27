@@ -1,0 +1,130 @@
+.dropdown-trigger,
+.dropdown-list {
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  background: #303030;
+  width: 200px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  color: whitesmoke;
+}
+
+.dropdown-input {
+  outline: none;
+  border: none;
+  font-size: 15px;
+}
+
+.dropdown-icon {
+  vertical-align: middle;
+  color: silver;
+  user-select: none;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-trigger {
+}
+
+.dropdown-text {
+  align-self: center;
+}
+
+.dropdown-trigger:hover {
+  color: gray;
+  cursor: pointer;
+}
+
+.dropdown-icon {
+  /* vertical-align: middle; */
+  float: right;
+  transform: translateY(-4px);
+  transition: 0.2s ease-out;
+  font-size: 30px;
+}
+
+.flipped-icon {
+  transform: translateY(-4px) rotate(180deg);
+}
+
+.dropdown-container {
+  display: none;
+  position: relative;
+  width: 150px;
+  padding-top: 5px;
+  z-index: 1000;
+}
+
+.dropdown-list {
+  padding: 0px;
+  position: absolute;
+  transform-origin: top;
+  margin-top: 5px;
+  max-height: 200px;
+  overflow-y: auto;
+  /* transform: translateY(-100%); */
+}
+
+.dropdown-list::-webkit-scrollbar {
+  background: #303030;
+  border-radius: 5px;
+  width: 5px;
+}
+
+.dropdown-list::-webkit-scrollbar-track {
+}
+
+.dropdown-list::-webkit-scrollbar-thumb {
+  background: rgb(56, 56, 56);
+}
+
+.dropdown-list-item {
+  text-align: center;
+  padding: 15px;
+  border-bottom: 1px solid #414141;
+}
+
+.dropdown-list-item:last-child {
+  border: none;
+}
+
+.dropdown-list-item:hover {
+  background: rgb(58, 58, 58);
+  cursor: pointer;
+}
+
+.dropdown-active {
+  animation: scale-bottom 0.2s;
+  animation-fill-mode: forwards;
+}
+.dropdown-inactive {
+  animation: scale-top 0.2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes scale-bottom {
+  0% {
+    opacity: 0;
+    transform: scaleY(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+}
+@keyframes scale-top {
+  0% {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scaleY(0);
+  }
+}

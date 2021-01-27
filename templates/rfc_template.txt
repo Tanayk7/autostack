@@ -1,0 +1,10 @@
+import React from 'react'
+import './<component_name>.css'
+
+const <component_name> = () => {
+    return (
+        <div className='<component_name>'></div>
+    )
+}
+
+export default <component_name>
