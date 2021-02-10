@@ -1,6 +1,6 @@
 {
   "name": "autostack",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A CLI tool for automating the tedious tasks of a react app",
   "main": "autostack.js",
   "scripts": {
